@@ -25,9 +25,9 @@ class Pokemon {
     init?(dictionary:[String:Any]) {
         guard let name = dictionary[Keys.name.rawValue] as? String,
               let id = dictionary[Keys.id.rawValue] as? Int,
-              let movesArray = dictionary[Keys.moves.rawValue] as? [[String:Any]],
               let spriteDict = dictionary[Keys.sprites.rawValue] as? [String:Any],
-              let spritePosterPath = spriteDict[Keys.frontShiny.rawValue] as? String else {return nil}
+              let spritePosterPath = spriteDict[Keys.frontShiny.rawValue] as? String,
+              let movesArray = dictionary[Keys.moves.rawValue] as? [[String:Any]] else {return nil}
         
         var moves: [String] = []
         
