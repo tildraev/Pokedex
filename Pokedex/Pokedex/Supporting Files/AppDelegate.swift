@@ -14,11 +14,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        NetworkingController.fetchPokemon(with: "") { ditto in
-            if let ditto = ditto {
-                print(ditto.name)
-            }
-        }
         return true
     }
 
