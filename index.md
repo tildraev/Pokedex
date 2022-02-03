@@ -306,9 +306,11 @@ Take a well-deserved sigh of relief. We did it! We have now completed the networ
 
 Build. Run. Commit. Party. Start a new function.
 
-[image:93DE9098-228A-4486-B212-E6C93E56791D-9082-00001C7D6062FC10/gruMeme.jpg]
+![Gru Meme](gruMeme.jpg)
 
-#### Image 4rm URL
+---
+
+### Image 4rm URL
 
 Under the `fetchPokemon` we will perform a second  `dataTask` that will retrieve the data we need to create an image. To accomplish this we need to:
 * Create a `fetchImage` function that will have two parameters
