@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# Pokedex
+In this project, you will use your knowledge of Swift and Networking to build an app that displays the search results for Pokemon! Gotta parse em’ all!
 
-You can use the [editor on GitHub](https://github.com/Stateful-Academy/Pokedex/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Students who complete this project independently or as a pairing will showcase their understanding of the following principles:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Basic Storyboard constraints
+* UITableviews
+* Creating Custom `class` objects
+* Constants, Variables, and Basic Data Types
+* Collections
+* Functions
+* Control Flow
+* IBActions && IBOutlets
+* API Calls
+* API Documentation
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+---
 
-```markdown
-Syntax highlighted code block
+##  Before you begin
+Please `Fork` then `clone` the repo. You can access the repo here:
+https://github.com/Stateful-Academy/Pokedex
 
-# Header 1
-## Header 2
-### Header 3
+Create a local branch named `starter` and track the remote branch `starter`. 
 
-- Bulleted
-- List
+To do this:
+ * Open `Terminal`
+ * Navigate to the correct `directory`
+ * Type `git checkout --track origin/starter` 
+	 * Hype
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Stateful-Academy/Pokedex/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+---
