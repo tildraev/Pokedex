@@ -21,16 +21,16 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="zie-ox-ZdJ">
-                                <rect key="frame" x="8" y="185" width="398" height="260"/>
+                                <rect key="frame" x="8" y="145" width="398" height="260"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="260" id="htc-Cn-AwE"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7D4-jB-z3N">
-                                <rect key="frame" x="87" y="251" width="240" height="128"/>
+                                <rect key="frame" x="87" y="211" width="240" height="128"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Lv6-8t-N9T">
-                                <rect key="frame" x="8" y="475" width="398" height="379"/>
+                                <rect key="frame" x="8" y="355" width="398" height="499"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="moveCell" textLabel="AOf-EB-hHY" style="IBUITableViewCellStyleDefault" id="r4x-Zr-SZP">
@@ -53,15 +53,15 @@
                                 </prototypes>
                             </tableView>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="6gg-TS-lwd">
-                                <rect key="frame" x="32.5" y="114" width="349" height="50"/>
+                                <rect key="frame" x="32.5" y="95" width="349" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CcM-h8-WYl">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="6"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search for a Pokemon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ld9-vt-DrA">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search for a Pokemon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ld9-vt-DrA">
                                         <rect key="frame" x="60" y="6.5" width="289" height="37"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                         <nil key="textColor"/>
@@ -73,8 +73,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6gg-TS-lwd" firstAttribute="top" secondItem="TQX-wG-KLe" secondAttribute="bottom" constant="19" id="0Tr-jb-o5x"/>
-                            <constraint firstItem="zie-ox-ZdJ" firstAttribute="top" secondItem="6gg-TS-lwd" secondAttribute="bottom" constant="21" id="56Q-Yi-3Vc"/>
+                            <constraint firstItem="6gg-TS-lwd" firstAttribute="top" secondItem="TQX-wG-KLe" secondAttribute="bottom" id="0Tr-jb-o5x"/>
+                            <constraint firstItem="zie-ox-ZdJ" firstAttribute="top" secondItem="6gg-TS-lwd" secondAttribute="bottom" id="56Q-Yi-3Vc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Lv6-8t-N9T" secondAttribute="bottom" constant="8" id="72t-dh-Cpa"/>
                             <constraint firstItem="Lv6-8t-N9T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="BE0-Tr-Fp7"/>
                             <constraint firstItem="zie-ox-ZdJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="I8j-ii-lIx"/>
@@ -89,7 +89,7 @@
                             <constraint firstItem="7D4-jB-z3N" firstAttribute="height" secondItem="zie-ox-ZdJ" secondAttribute="height" multiplier="0.492308" id="hKn-8d-bWD"/>
                             <constraint firstItem="TQX-wG-KLe" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kCK-cv-cBY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lv6-8t-N9T" secondAttribute="trailing" constant="8" id="lpl-j2-AO5"/>
-                            <constraint firstItem="Lv6-8t-N9T" firstAttribute="top" secondItem="zie-ox-ZdJ" secondAttribute="bottom" constant="30" id="rjV-gf-nhB"/>
+                            <constraint firstItem="Lv6-8t-N9T" firstAttribute="top" secondItem="zie-ox-ZdJ" secondAttribute="bottom" constant="-50" id="rjV-gf-nhB"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dQr-1x-XY7"/>
