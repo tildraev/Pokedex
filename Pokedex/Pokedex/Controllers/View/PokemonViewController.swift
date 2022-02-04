@@ -28,9 +28,10 @@ class PokemonViewController: UIViewController {
         pokemonMovesTableView.dataSource = self
     }
 }// End
+
 extension PokemonViewController: UISearchBarDelegate {
-    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         guard let searchTerm = searchBar.text else { return }
         
         NetworkController.fetchPokemon(from: searchTerm) { pokemon in
@@ -38,7 +39,7 @@ extension PokemonViewController: UISearchBarDelegate {
             
             
             DispatchQueue.main.async {
-                self.pokemonNameLabel.text = pokemon.name
+                //self.pokemonNameLabel.text = pokemon.name
                 self.pokemonIDLabel.text = "\(pokemon.id)"
                 self.pokemon = pokemon
                 self.pokemonMovesTableView.reloadData()
@@ -49,6 +50,7 @@ extension PokemonViewController: UISearchBarDelegate {
                 
                 DispatchQueue.main.async {
                     self.pokemonSpriteImageView.image = pokemonImage
+                    self.pokemonNameLabel.text = searchTerm
                 }
             }
         }

@@ -21,16 +21,16 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="zie-ox-ZdJ">
-                                <rect key="frame" x="8" y="145" width="398" height="260"/>
+                                <rect key="frame" x="8" y="125" width="398" height="260"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="260" id="htc-Cn-AwE"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7D4-jB-z3N">
-                                <rect key="frame" x="87" y="211" width="240" height="128"/>
+                                <rect key="frame" x="87" y="191" width="240" height="128"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Lv6-8t-N9T">
-                                <rect key="frame" x="8" y="355" width="398" height="499"/>
+                                <rect key="frame" x="8" y="335" width="398" height="519"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="moveCell" textLabel="AOf-EB-hHY" style="IBUITableViewCellStyleDefault" id="r4x-Zr-SZP">
@@ -74,7 +74,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6gg-TS-lwd" firstAttribute="top" secondItem="TQX-wG-KLe" secondAttribute="bottom" id="0Tr-jb-o5x"/>
-                            <constraint firstItem="zie-ox-ZdJ" firstAttribute="top" secondItem="6gg-TS-lwd" secondAttribute="bottom" id="56Q-Yi-3Vc"/>
+                            <constraint firstItem="zie-ox-ZdJ" firstAttribute="top" secondItem="6gg-TS-lwd" secondAttribute="bottom" constant="-20" id="56Q-Yi-3Vc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Lv6-8t-N9T" secondAttribute="bottom" constant="8" id="72t-dh-Cpa"/>
                             <constraint firstItem="Lv6-8t-N9T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="BE0-Tr-Fp7"/>
                             <constraint firstItem="zie-ox-ZdJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="I8j-ii-lIx"/>
